@@ -42,7 +42,7 @@ background-size: cover;
     text-align: center;  
 }
 
-.ride-detail span {
+.ride-detail>span {
     display: inline-block;
     width: 50px;
     height: 10px;
@@ -50,6 +50,11 @@ background-size: cover;
     margin-bottom: 15px;
     background: #e5e5e5
 
+}
+
+.ride-detail p span {
+    display: inline-block;
+    margin-bottom: 5px;
 }
 
 h2.ride-location  {
@@ -94,3 +99,17 @@ h2.ride-location  {
   cursor: pointer;
   outline: none;
 }
+
+@media only screen and (min-width: 768px) {
+    main.container {
+        grid-template-columns: 1fr 0.3fr;
+        grid-template-rows: unset;
+    }
+
+    .ride-detail {
+        
+        bottom: 0;
+        
+    }
+
+} 

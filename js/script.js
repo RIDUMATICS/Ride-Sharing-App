@@ -3,7 +3,10 @@ const amount = 5000
 const driverAmount = 5000 - 500; 
 let test = {
             PBFPubKey: API_publicKey,
-            customer_email: "ajayitawa@gmail.com",
+            customer_firstname: "John",
+          customer_lastname: "Doe",
+          customer_email:"Johndoe@example.com",
+          customer_phone: "08123456789",
             amount,
             currency: "NGN",
             txref: "rave-1234",
